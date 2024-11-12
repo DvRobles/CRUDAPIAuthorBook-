@@ -24,7 +24,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
    npm run start
    ```
 
-   El servidor estará corriendo en el puerto **4000** por defecto, o en el puerto especificado en tu archivo `.env`.
+   El servidor estará corriendo en el puerto **4000** por defecto.
 
 ---
 
@@ -156,3 +156,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 ## 💡 **Consejos**
 
 - **Postman** es una excelente herramienta para probar los endpoints de la API. Puedes fácilmente enviar solicitudes y recibir respuestas en formato JSON.
+
+## Nota
+   - No subi el .env que es donde esta mi URI para la conexión a la DB.
+   - Utilice el servicio de Filess.io para la creación de la DB.
