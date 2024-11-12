@@ -34,7 +34,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 1. **Crear un autor**
    - **Método HTTP**: `POST`
-   - **URL**: `http://localhost:4000/authors`
+   - **URL**: `http://localhost:4000/authors` or `https://crudapiauthorbook.onrender.com/authors`
    - **Descripción**: Crea un nuevo autor.
    - **Cuerpo (Body)**:
      ```json
@@ -46,18 +46,18 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 2. **Obtener todos los autores**
    - **Método HTTP**: `GET`
-   - **URL**: `http://localhost:4000/authors`
+   - **URL**: `http://localhost:4000/authors` or `https://crudapiauthorbook.onrender.com/authors`
    - **Descripción**: Obtiene una lista de todos los autores.
 
 3. **Obtener un autor por ID**
    - **Método HTTP**: `GET`
-   - **URL**: `http://localhost:4000/authors/:id` 
+   - **URL**: `http://localhost:4000/authors/:id`  or `https://crudapiauthorbook.onrender.com/authors/:id`
    - **Descripción**: Obtiene los detalles de un autor específico utilizando su ID.
    - **Ejemplo de URL**: `http://localhost:4000/authors/1`
 
 4. **Actualizar un autor por ID**
    - **Método HTTP**: `PUT`
-   - **URL**: `http://localhost:4000/authors/:id`
+   - **URL**: `http://localhost:4000/authors/:id` or `https://crudapiauthorbook.onrender.com/authors/:id`
    - **Descripción**: Actualiza la información de un autor.
    - **Cuerpo (Body)**:
      ```json
@@ -69,7 +69,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 5. **Eliminar un autor por ID**
    - **Método HTTP**: `DELETE`
-   - **URL**: `http://localhost:4000/authors/:id`
+   - **URL**: `http://localhost:4000/authors/:id` or `https://crudapiauthorbook.onrender.com/authors/:id`
    - **Descripción**: Elimina un autor de la base de datos utilizando su ID.
 
 ---
@@ -78,7 +78,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 1. **Crear un libro**
    - **Método HTTP**: `POST`
-   - **URL**: `http://localhost:4000/books`
+   - **URL**: `http://localhost:4000/books` or `https://crudapiauthorbook.onrender.com/books`
    - **Descripción**: Crea un nuevo libro asociado a un autor.
    - **Cuerpo (Body)**:
      ```json
@@ -91,7 +91,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 2. **Obtener todos los libros**
    - **Método HTTP**: `GET`
-   - **URL**: `http://localhost:4000/books`
+   - **URL**: `http://localhost:4000/books` or `https://crudapiauthorbook.onrender.com/books`
    - **Descripción**: Obtiene una lista de todos los libros.
   
    - ![image](https://github.com/user-attachments/assets/4b0211f2-052c-4289-935d-3816ec3eaeca)
@@ -99,13 +99,13 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 3. **Obtener un libro por ID**
    - **Método HTTP**: `GET`
-   - **URL**: `http://localhost:4000/books/:id`
+   - **URL**: `http://localhost:4000/books/:id` or `https://crudapiauthorbook.onrender.com/books/1`
    - **Descripción**: Obtiene los detalles de un libro específico utilizando su ID.
    - **Ejemplo de URL**: `http://localhost:4000/books/1`
 
 4. **Actualizar un libro por ID**
    - **Método HTTP**: `PUT`
-   - **URL**: `http://localhost:4000/books/:id`
+   - **URL**: `http://localhost:4000/books/:id` or `https://crudapiauthorbook.onrender.com/books/1`
    - **Descripción**: Actualiza la información de un libro.
    - **Cuerpo (Body)**:
      ```json
@@ -118,7 +118,7 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 5. **Eliminar un libro por ID**
    - **Método HTTP**: `DELETE`
-   - **URL**: `http://localhost:4000/books/:id`
+   - **URL**: `http://localhost:4000/books/:id` or `https://crudapiauthorbook.onrender.com/books/1`
    - **Descripción**: Elimina un libro de la base de datos utilizando su ID.
 
 ---
