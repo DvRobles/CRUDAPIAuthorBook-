@@ -93,6 +93,9 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
    - **Método HTTP**: `GET`
    - **URL**: `http://localhost:4000/books`
    - **Descripción**: Obtiene una lista de todos los libros.
+  
+   - ![image](https://github.com/user-attachments/assets/4b0211f2-052c-4289-935d-3816ec3eaeca)
+
 
 3. **Obtener un libro por ID**
    - **Método HTTP**: `GET`
