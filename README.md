@@ -163,3 +163,11 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 ## Nota
    - No subi el .env que es donde esta mi URI para la conexión a la DB.
    - Utilice el servicio de Filess.io para la creación de la DB.
+
+
+⚠️ Nota sobre el rendimiento
+La API está desplegada en la capa gratuita de Render, lo que significa que el servidor puede tardar hasta 50 segundos en responder si no ha estado activo recientemente. Esto se debe a que en esta capa gratuita, el servidor entra en estado de reposo cuando no recibe solicitudes durante un período de tiempo, y requiere arrancar nuevamente al recibir una nueva solicitud.
+
+## Consejos:
+   - Si planeas usar la API considera realizar una solicitud previa (por ejemplo, un **GET** a la raíz del servidor) para "despertar" el servidor.
+   - Este comportamiento solo afecta a las URLs desplegadas en Render, como `https://crudapiauthorbook.onrender.com○/books`.
