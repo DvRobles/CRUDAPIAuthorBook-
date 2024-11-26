@@ -171,4 +171,4 @@ Este proyecto es una API RESTful para gestionar autores y libros. Permite crear,
 
 Consejos:
    - Si planeas usar la API considera realizar una solicitud previa (por ejemplo, un **GET** a la raíz del servidor) para "despertar" el servidor.
-   - Este comportamiento solo afecta a las URLs desplegadas en Render, como `https://crudapiauthorbook.onrender.com○/books`.
+   - Este comportamiento solo afecta a las URLs desplegadas en Render, como `https://crudapiauthorbook.onrender.com/books`.
